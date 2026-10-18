@@ -1,0 +1,25 @@
+[
+  {
+    "route": "/",
+    "firstLoadUncompressedJsBytes": 473091,
+    "firstLoadChunkPaths": [
+      ".next-wedding/static/chunks/1tq6ppe__m8m-.js",
+      ".next-wedding/static/chunks/0bts8xcjgykqh.js",
+      ".next-wedding/static/chunks/31qp8jfkw0x2h.js",
+      ".next-wedding/static/chunks/0i46y6vlt4sc3.js",
+      ".next-wedding/static/chunks/1s37vwjm584j-.js",
+      ".next-wedding/static/chunks/turbopack-3-ry682tkyiqk.js"
+    ]
+  },
+  {
+    "route": "/_not-found",
+    "firstLoadUncompressedJsBytes": 457499,
+    "firstLoadChunkPaths": [
+      ".next-wedding/static/chunks/1tq6ppe__m8m-.js",
+      ".next-wedding/static/chunks/31qp8jfkw0x2h.js",
+      ".next-wedding/static/chunks/0i46y6vlt4sc3.js",
+      ".next-wedding/static/chunks/1s37vwjm584j-.js",
+      ".next-wedding/static/chunks/turbopack-3-ry682tkyiqk.js"
+    ]
+  }
+]

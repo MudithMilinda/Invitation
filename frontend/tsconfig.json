@@ -1,0 +1,60 @@
+{
+  "compilerOptions": {
+    "target": "ES2017",
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "noEmit": true,
+    "esModuleInterop": true,
+    "module": "esnext",
+    "moduleResolution": "bundler",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "react-jsx",
+    "incremental": true,
+    "plugins": [
+      {
+        "name": "next"
+      }
+    ],
+    "paths": {
+      "@/*": [
+        "./*"
+      ]
+    }
+  },
+  "include": [
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx",
+    ".next/types/**/*.ts",
+    ".next/dev/types/**/*.ts",
+    "**/*.mts",
+    ".next-invitation/types/**/*.ts",
+    ".next-invitation/dev/types/**/*.ts",
+    ".next-wedding/types/**/*.ts",
+    ".next-wedding/dev/types/**/*.ts",
+    ".next-final/types/**/*.ts",
+    ".next-final/dev/types/**/*.ts",
+    ".next-portrait/types/**/*.ts",
+    ".next-portrait/dev/types/**/*.ts",
+    ".next-soft/types/**/*.ts",
+    ".next-soft/dev/types/**/*.ts",
+    ".next-softer/types/**/*.ts",
+    ".next-softer/dev/types/**/*.ts",
+    ".next-clean/types/**/*.ts",
+    ".next-clean/dev/types/**/*.ts",
+    ".next-botanical/types/**/*.ts",
+    ".next-botanical/dev/types/**/*.ts",
+    ".next-leaves/types/**/*.ts",
+    ".next-leaves/dev/types/**/*.ts"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}
