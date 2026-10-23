@@ -5,7 +5,7 @@ import ScrollReveal from "./scroll-reveal";
 import InvitationCover from "./invitation-cover";
 import heroBackground from "./assets/image copy 8.png";
 import locationIllustration from "./assets/location-transparent.png";
-import couplePortrait from "./assets/image copy 4.png";
+import couplePortrait from "./assets/couple-transparent.png";
 
 const receptionMapUrl = "https://maps.google.com/?q=Waters+Edge+Battaramulla+Sri+Lanka";
 export default function WeddingInvitation() {
@@ -60,7 +60,7 @@ export default function WeddingInvitation() {
                     <h2 id="family-invitation-names" className="mb-0 mt-5 font-[family-name:var(--script)] text-[clamp(58px,14vw,100px)] leading-[1.1] font-normal text-[#765333]">
                         Kelumi <span className="text-[0.65em]">&amp;</span> Umesh
                     </h2>
-                    <p className="mb-0 mt-3 font-[family-name:var(--editorial)] text-sm tracking-[0.05em] uppercase">Captain of Sri Lanka Army</p>
+                    <p className="mb-0 mt-3 font-[family-name:var(--editorial)] text-sm tracking-[0.05em] uppercase">(Captain of Sri Lanka Army)</p>
                     <p className="mx-auto mb-0 mt-6 max-w-[600px] font-[family-name:var(--editorial)] text-sm leading-relaxed tracking-[0.04em] uppercase">Request the honour of your presence to grace the occasion of our wedding ceremony</p>
                     <span aria-hidden="true" className="mt-8 block text-2xl text-[#b38a52]">❧</span>
                 </div>
@@ -80,8 +80,8 @@ export default function WeddingInvitation() {
                         </div>
                     </div>
                     <span aria-hidden="true" className="mt-2 block text-3xl text-[#b59a79]">❧ ♥ ❧</span>
-                    <p className="mb-0 mt-7 font-[family-name:var(--editorial)] text-base tracking-[0.08em] uppercase">From 5:00 pm · Poruwa ceremony at 5:04 pm</p>
-                    <p className="mb-0 mt-1 font-[family-name:var(--editorial)] text-sm tracking-[0.08em] uppercase">Battaramulla, Sri Lanka</p>
+                    <p className="mb-0 mt-7 font-[family-name:var(--editorial)] text-base tracking-[0.08em] uppercase">FROM 5.00 PM ONWARDS</p>
+                    <p className="mb-0 mt-2 font-[family-name:var(--editorial)] text-sm tracking-[0.08em] uppercase">AT BATTARAMULLA, SRI LANKA</p>
                 </div>
             </section>
 
@@ -92,12 +92,14 @@ export default function WeddingInvitation() {
                 <p className="mb-0 mt-3 text-center font-[family-name:var(--script)] text-3xl text-[#aa8c69] sm:text-4xl">We can&apos;t wait to celebrate with you</p>
                 <div className="relative mx-auto mt-14 max-w-[560px] before:absolute before:bottom-8 before:left-[92px] before:top-2 before:w-px before:bg-[#bea078] sm:before:left-[115px]">
                     {[
-                        ["5:00 pm", "Wedding celebration begins"],
                         ["5:04 pm", "Poruwa ceremony"],
+                        ["6:18 pm", "Registration"],
+                        ["8:06 pm", "Dinner"],
+                        ["11:26 pm", "Going away"],
                     ].map(([time, event]) => (
                         <div key={time} className="motion-item relative grid min-h-[108px] grid-cols-[76px_1fr] gap-9 sm:grid-cols-[96px_1fr] sm:gap-10">
                             <span aria-hidden="true" className="absolute left-[87px] top-2 h-[11px] w-[11px] rounded-full border-2 border-[#b59a76] bg-[#f7f0e5] sm:left-[110px]" />
-                            <time className="text-right font-[family-name:var(--editorial)] text-xl leading-tight sm:text-2xl">{time}</time>
+                            <time className="whitespace-nowrap text-right font-[family-name:var(--editorial)] text-xl leading-tight sm:text-2xl">{time}</time>
                             <p className="m-0 font-[family-name:var(--editorial)] text-[23px] leading-tight sm:text-3xl">{event}</p>
                         </div>
                     ))}
@@ -143,7 +145,7 @@ export default function WeddingInvitation() {
                     <a href="tel:0777148344" className="rounded-full border border-[#d9c4a3] px-6 py-2 font-[family-name:var(--editorial)] text-sm text-[#a47b42] transition-colors hover:bg-[#f1eee5]">☎ &nbsp; Call Umesh</a>
                 </div>
                 <h2 id="thank-you-title" className="mb-0 mt-14 font-[family-name:var(--editorial)] text-3xl font-normal">Thank You</h2>
-                <p className="mb-0 mt-3 font-[family-name:var(--editorial)] text-base text-[#a47b42]">Thank you for being a part of our special day!</p>
+                <p className="mb-0 mt-3 font-[family-name:var(--editorial)] text-base text-[#a47b42]">We are so grateful for you being a part of our special day.</p>
                 <span aria-hidden="true" className="mt-5 block text-[#c99641]">♥</span>
             </section>
 
