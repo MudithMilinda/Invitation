@@ -139,7 +139,10 @@ export default function WeddingInvitation() {
             <section className="relative z-10 px-6 py-20 text-center text-[#665c50] sm:py-24" aria-labelledby="thank-you-title">
                 <p className="m-0 font-[family-name:var(--invitation-sans)] text-[10px] tracking-[0.25em] text-[#b2874e] uppercase">With love,</p>
                 <p className="mb-0 mt-4 font-[family-name:var(--editorial)] text-3xl">Kelumi &amp; Umesh</p>
-                <p className="mb-0 mt-3 font-[family-name:var(--editorial)] text-sm text-[#a47b42]">25 November 2026 · Eagle Hall, Waters Edge, Battaramulla</p>
+                <p className="mb-0 mt-3 font-[family-name:var(--editorial)] text-sm text-[#a47b42]">
+                  <span className="block">25 November 2026</span>
+                  <span className="block">Eagle Hall, Waters Edge, Battaramulla</span>
+                </p>
                 <div className="mt-7 flex flex-col items-center gap-3">
                     <a href="tel:0713677274" className="rounded-full border border-[#d9c4a3] px-6 py-2 font-[family-name:var(--editorial)] text-sm text-[#a47b42] transition-colors hover:bg-[#f1eee5]">☎ &nbsp; Call Kelumi</a>
                     <a href="tel:0777148344" className="rounded-full border border-[#d9c4a3] px-6 py-2 font-[family-name:var(--editorial)] text-sm text-[#a47b42] transition-colors hover:bg-[#f1eee5]">☎ &nbsp; Call Umesh</a>
