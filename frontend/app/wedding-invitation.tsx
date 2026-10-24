@@ -5,7 +5,7 @@ import ScrollReveal from "./scroll-reveal";
 import InvitationCover from "./invitation-cover";
 import heroBackground from "./assets/image copy 8.png";
 import locationIllustration from "./assets/location-transparent.png";
-import couplePortrait from "./assets/couple-transparent.png";
+import couplePortrait from "./assets/hero.png";
 
 const receptionMapUrl = "https://maps.google.com/?q=Waters+Edge+Battaramulla+Sri+Lanka";
 export default function WeddingInvitation() {
